@@ -1,0 +1,56 @@
+/* Estilos para los metaboxes en el Admin - Alineación */
+
+#woocommerce-product-data ul.wc-tabs li.productos_alimenticios_chile_tab a {
+    padding-left: 8px !important;
+    padding-right: 8px !important; /* Ajusta el padding de la pestaña si es necesario */
+}
+
+.tabla-nutricional-metabox-container label { /* CLASE CSS CORREGIDA */
+    display: inline-block; /* Muestra las etiquetas en línea */
+    width: 220px; /* Ancho fijo para las etiquetas (ajusta según necesidad) */
+    vertical-align: top; /* Alineación vertical superior para las etiquetas */
+    margin-right: 10px; /* Margen derecho para separar etiqueta del campo */
+    font-weight: bold; /* Negrita para las etiquetas */
+    margin-bottom: 8px; /* Margen inferior para separar las filas de campos */
+}
+
+.tabla-nutricional-metabox-container input[type="text"], /* CLASE CSS CORREGIDA */
+.tabla-nutricional-metabox-container input[type="number"], /* CLASE CSS CORREGIDA */
+.tabla-nutricional-metabox-container textarea, /* CLASE CSS CORREGIDA */
+.tabla-nutricional-metabox-container select { /* CLASE CSS CORREGIDA */
+    width: calc(100% - 230px); /* Ancho de los campos (100% del contenedor menos el ancho de la etiqueta + margen) */
+    max-width: 400px; /* Ancho máximo para los campos (ajusta si deseas) */
+    margin-bottom: 8px; /* Margen inferior para separar las filas de campos */
+    display: inline-block; /* Muestra los campos en línea con las etiquetas */
+    vertical-align: top; /* Alineación vertical superior para los campos */
+}
+
+.tabla-nutricional-metabox-container textarea { /* CLASE CSS CORREGIDA */
+    min-height: 80px; /* Altura mínima para el textarea de ingredientes */
+}
+
+.tabla-nutricional-metabox-container p.descripcion-campo { /* CLASE CSS CORREGIDA */
+    font-style: italic; /* Itálica para las descripciones de los campos */
+    color: #777; /* Color gris para las descripciones de los campos */
+    margin-top: 0; /* Eliminar margen superior de las descripciones */
+    margin-bottom: 10px; /* Margen inferior para separar las descripciones */
+    margin-left: 230px; /* Indentación para alinear con los campos */
+    font-size: 0.9em; /* Tamaño de fuente más pequeño para las descripciones */
+}
+
+.tabla-nutricional-metabox-container .checkbox-group label { /* CLASE CSS CORREGIDA */
+    width: auto; /* Ancho automático para las etiquetas de checkboxes */
+    font-weight: normal; /* Quitar negrita para etiquetas de checkboxes */
+    margin-right: 20px; /* Margen derecho entre checkboxes */
+}
+
+.tabla-nutricional-metabox-container .checkbox-group input[type="checkbox"] { /* CLASE CSS CORREGIDA */
+    margin-right: 5px; /* Margen derecho entre checkbox y etiqueta */
+    vertical-align: middle; /* Alineación vertical al medio de los checkboxes */
+}
+
+.tabla-nutricional-metabox-container hr { /* CLASE CSS CORREGIDA */
+    border: none; /* Eliminar borde por defecto de hr */
+    border-top: 1px solid #ddd; /* Añadir solo borde superior para separar secciones */
+    margin: 20px 0; /* Margen superior e inferior para separar secciones */
+}
